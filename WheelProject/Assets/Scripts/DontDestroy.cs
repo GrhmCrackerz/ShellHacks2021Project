@@ -3,10 +3,11 @@ using UnityEngine;
 
 public class DontDestroy : MonoBehaviour
 {
-    void Awake(){
+    void Awake()
+    {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("Music");
         if (objs.Length > 1)
-            DontDestroy(this.gameObject);
+            Destroy(this.gameObject);
 
         DontDestroyOnLoad(this.gameObject);
     }
