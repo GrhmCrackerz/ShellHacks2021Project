@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 
-public class GameHandeler : MonoBehaviour
+public class GameHandler : MonoBehaviour
 {
 
     [SerializeField] private HealthBar healthBar;
