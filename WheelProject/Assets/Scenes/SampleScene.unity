@@ -473,14 +473,14 @@ MonoBehaviour:
   winText: {fileID: 195283845}
   section: 8
   PrizeName:
-  - 8
-  - 7
-  - 6
-  - 5
-  - 4
-  - 3
-  - 2
-  - 1
+  - ???
+  - Critical Hit!
+  - Poison -2!
+  - Punch -1!
+  - Extra Spin!
+  - Kick -1!
+  - Pocket Sand -2!
+  - Critical Fail!
 --- !u!1 &1657788508
 GameObject:
   m_ObjectHideFlags: 0
