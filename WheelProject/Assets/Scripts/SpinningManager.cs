@@ -15,22 +15,30 @@ public class SpinningManager : MonoBehaviour
     float totalAngle;
     public string[] PrizeName;
 
+    public int spinCounter = 5;
+    Text spinText;
+
     // Use this for initialization
-    private void Start ()     {
+    private void Start()
+    {
+        spinText = GetComponent<Text>();
         isCoroutine = true;
         totalAngle = 360 / section;
     }
 
     // Update is called once per frame
-    private void Update ()    {
-
-        if (Input.GetMouseButton (0) && isCoroutine)    {
-            StartCoroutine (Spin ());
+    private void Update()
+    {
+        if (Input.GetMouseButton(0) && isCoroutine)
+        {
+            StartCoroutine(Spin());
+            spinCounter--;
+            spinText.text = "Spin Counter: " + spinCounter;
         }
     }
 
-    private IEnumerator Spin()   {
-
+    private IEnumerator Spin()
+    {
         isCoroutine = false;
         randVal = Random.Range(200, 300);
 
@@ -41,7 +49,7 @@ public class SpinningManager : MonoBehaviour
             transform.Rotate(0, 0, (totalAngle / 2)); // Start rotate
 
             // To slow down wheel
-            if (i > Mathf.RoundToInt (randVal * 0.2f))
+            if (i > Mathf.RoundToInt(randVal * 0.2f))
                 timeInterval = 0.5f * Time.deltaTime;
             if (i > Mathf.RoundToInt(randVal * 0.5f))
                 timeInterval = 1f * Time.deltaTime;
@@ -53,7 +61,6 @@ public class SpinningManager : MonoBehaviour
                 timeInterval = 2.5f * Time.deltaTime;
 
             yield return new WaitForSeconds(timeInterval);
-
         }
 
         if (Mathf.RoundToInt(transform.eulerAngles.z) % totalAngle != 0) // when the indicator stops between 2 numbers, it will add additional steps
@@ -72,5 +79,4 @@ public class SpinningManager : MonoBehaviour
 
         isCoroutine = true;
     }
-
 }
