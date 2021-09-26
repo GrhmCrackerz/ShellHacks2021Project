@@ -8,6 +8,7 @@ public class SpinCounterScript : MonoBehaviour
     public static int spinCounter = 5;
     Text spinText;
     // Start is called before the first frame update
+
     void Start()
     {
         spinText = GetComponent<Text>();
