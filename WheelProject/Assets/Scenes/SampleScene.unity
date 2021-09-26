@@ -701,6 +701,7 @@ MonoBehaviour:
   - Kick -1!
   - Pocket Sand -2!
   - Critical Fail!
+  spinCounter: 5
 --- !u!1 &1494498550
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,7 +794,7 @@ GameObject:
   - component: {fileID: 1652123164}
   - component: {fileID: 1652123166}
   - component: {fileID: 1652123165}
-  - component: {fileID: 1652123167}
+  - component: {fileID: 1652123168}
   m_Layer: 5
   m_Name: Spin Counter
   m_TagString: Untagged
@@ -861,7 +862,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652123163}
   m_CullTransparentMesh: 0
---- !u!114 &1652123167
+--- !u!114 &1652123168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -870,9 +871,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1652123163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 986c8b496e0278a42af3a9df90d3b72a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8510b4fc78b6753428c9faa0002dfdb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winText: {fileID: 0}
+  section: 0
+  PrizeName: []
+  spinCounter: 5
 --- !u!1 &1657788508
 GameObject:
   m_ObjectHideFlags: 0
