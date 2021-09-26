@@ -9,6 +9,7 @@ public class player : MonoBehaviour
     public int currentHealth;
 
     public HealthBar2 healthBar2;
+    public SpinningManager spinningManager;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class player : MonoBehaviour
         {
             TakeDamage(1);
         }
+       
     }
 
     void TakeDamage(int damage)

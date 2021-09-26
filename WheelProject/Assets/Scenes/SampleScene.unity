@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.585702, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -527,82 +527,7 @@ RectTransform:
 --- !u!1001 &1037079619
 PrefabInstance:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.74
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034804, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5374479508571034810, guid: dc916aa23adde2b4e81b4404f8bf199b,
-        type: 3}
-      propertyPath: m_Name
-      value: HealthBar
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dc916aa23adde2b4e81b4404f8bf199b, type: 3}
+
 --- !u!1 &1240525335
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.648, y: 0.00000095367}
+  m_AnchoredPosition: {x: -117, y: 0.00000095367}
   m_SizeDelta: {x: 156.70401, y: 149.79973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240525337
@@ -701,7 +626,7 @@ MonoBehaviour:
   - Kick -1!
   - Pocket Sand -2!
   - Critical Fail!
-  spinCounter: 5
+
 --- !u!1 &1494498550
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +837,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -55.587}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -121, y: 88}
+
   m_SizeDelta: {x: 47.510162, y: 50.055176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657788510

@@ -15,8 +15,7 @@ public class SpinningManager : MonoBehaviour
     float totalAngle;
     public string[] PrizeName;
 
-    public int spinCounter = 5;
-    Text spinText;
+
 
     // Use this for initialization
     private void Start()
