@@ -337,7 +337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -517,17 +517,13 @@ RectTransform:
   - {fileID: 195283844}
   - {fileID: 1652123164}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &1037079619
-PrefabInstance:
-  m_ObjectHideFlags: 0
-
 --- !u!1 &1240525335
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -117, y: 0.00000095367}
+  m_AnchoredPosition: {x: 1.648, y: -5.7e-14}
   m_SizeDelta: {x: 156.70401, y: 149.79973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240525337
@@ -626,7 +622,8 @@ MonoBehaviour:
   - Kick -1!
   - Pocket Sand -2!
   - Critical Fail!
-
+  - 
+  spinCounter: 5
 --- !u!1 &1494498550
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,7 +703,7 @@ Transform:
   m_LocalScale: {x: 2.3930721, y: 1.9781905, z: 1.6279176}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652123163
 GameObject:
@@ -837,8 +834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -55.587}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-
-  m_SizeDelta: {x: 47.510162, y: 50.055176}
+  m_AnchoredPosition: {x: -142, y: 106}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1657788510
 MonoBehaviour:
@@ -941,7 +938,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1978911665
 GameObject:
@@ -1042,5 +1039,5 @@ Transform:
   m_LocalScale: {x: 0.5377104, y: 0.5571318, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
