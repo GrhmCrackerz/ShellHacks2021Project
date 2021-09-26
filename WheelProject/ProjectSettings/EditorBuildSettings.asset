@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/SpinCounter.unity
     guid: 02ce66d016d48bd47bf1c49bd8fa681c
 =======
+=======
+>>>>>>> 583bc8221caf0ee9cd2cdcd6faa46283b16e3f71
 =======
 >>>>>>> 583bc8221caf0ee9cd2cdcd6faa46283b16e3f71
     path: Assets/Scenes/StartMenu.unity
@@ -19,7 +22,10 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> 583bc8221caf0ee9cd2cdcd6faa46283b16e3f71
 =======
 >>>>>>> 583bc8221caf0ee9cd2cdcd6faa46283b16e3f71
   - enabled: 1
