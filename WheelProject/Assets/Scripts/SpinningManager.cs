@@ -15,6 +15,8 @@ public class SpinningManager : MonoBehaviour
     float totalAngle;
     public string[] PrizeName;
 
+    public HealthBar2 healthBar2;
+
     // Use this for initialization
     private void Start ()     {
         isCoroutine = true;
